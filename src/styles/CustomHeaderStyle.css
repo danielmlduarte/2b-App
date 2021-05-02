@@ -22,9 +22,11 @@
 .header-nav-hero {
   display: flex;
   width: 50%;
+  text-decoration: none;
+  color: #070400;
 }
 
-.header-nav-hero input{
+.header-nav-hero img{
   margin-right: 10px;
 }
 

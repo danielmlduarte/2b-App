@@ -6,10 +6,10 @@ const CustomHeader = () => {
   return (
     <header className="header-container">
       <nav className="header-nav">
-        <div className="header-nav-hero">
-          <input type="image" src={ TinyoneLogo } alt="" />
+        <a href="#home" className="header-nav-hero">
+          <img src={ TinyoneLogo } alt="" />
           <span>tiyone</span>
-        </div>
+        </a>
         <div className="header-nav-buttons">
           <a href="#feature-section">Features</a>
           <a href=" ">Support</a>

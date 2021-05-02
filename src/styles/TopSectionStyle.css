@@ -1,0 +1,32 @@
+.top-section {
+  background-color: #fddb00;
+  height: 600px;
+}
+
+.top-section article {
+  margin-top: 100px;
+  width: 30%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.top-section article h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.top-section article h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.top-section article p {
+  margin-bottom: 20px;
+}
+
+.top-section-content {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
+}
