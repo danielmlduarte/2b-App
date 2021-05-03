@@ -1,5 +1,5 @@
 import React from 'react';
-import TinyoneTable from '../assets/tinyone-table.png';
+import TinyoneTablet from '../assets/tinyone-tablet.png';
 import AppleBrand from '../assets/apple-brands.svg';
 import AndroidBrand from '../assets/android.svg';
 import WindowsBrand from '../assets/windows-brands.svg';
@@ -23,14 +23,14 @@ const TopSection = () => {
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation
             ullamco laboris nisi ut aliquip ex ea commodo consequat
           </p>
-          <img src={ AppleBrand } alt=""/>
-          <img src={ AndroidBrand } alt=""/>
-          <img src={ WindowsBrand } alt=""/>
+          <img src={ AppleBrand } alt="Apple brand"/>
+          <img src={ AndroidBrand } alt="Android brand"/>
+          <img src={ WindowsBrand } alt="Windows brand"/>
         </article>
-        <img className="tinyone-table" src={ TinyoneTable } alt=""/>
+        <img className="tinyone-tablet" src={ TinyoneTablet } alt="Tinyone tablet"/>
       </div>
     </section>
-  )
+  );
 };
 
 export default TopSection;

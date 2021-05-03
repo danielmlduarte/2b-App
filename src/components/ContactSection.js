@@ -6,7 +6,7 @@ function ContactSection() {
     <section className="contact-section">
       
     </section>
-  )
-}
+  );
+};
 
-export default ContactSection
+export default ContactSection;

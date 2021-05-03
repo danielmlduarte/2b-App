@@ -1,3 +1,42 @@
 .feature-section {
-  height: 800px;
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.feature-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-section h2 {
+  margin-bottom: 5rem;
+  font-weight: 400;
+  width: 50vw;
+  text-align: center;
+}
+
+.feature-article-content {
+  display: flex;
+  width: 20rem;
+  align-items: flex-start;
+  margin-bottom: 5rem;
+}
+
+.feature-article-content img {
+  width: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.feature-article-content article h3 {
+  margin-bottom: 1.5rem;
+}
+
+.feature-articles-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 60vw;
 }

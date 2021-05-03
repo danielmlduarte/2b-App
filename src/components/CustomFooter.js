@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import '../styles/CustomFooterStyle.css';
 
 function CustomFooter() {
@@ -6,7 +6,7 @@ function CustomFooter() {
     <footer className="custom-container">
       
     </footer>
-  )
-}
+  );
+};
 
-export default CustomFooter
+export default CustomFooter;

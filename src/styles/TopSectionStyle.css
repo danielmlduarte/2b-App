@@ -1,75 +1,71 @@
 .top-section {
   background-color: #fddb00;
-  height: 100%;
 }
 
 .top-section article {
   font-family: 'PT Sans', sans-serif;
-  margin: 50px 0;
-  width: 20%;
+  width: 25rem;
 }
 
 .top-section article h1 {
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .top-section article h2 {
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .top-section article p {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .top-section article img {
-  margin-right: 20px;
-  width: 40px;
+  margin-right: 2rem;
+  width: 2.5rem;
 }
 
 .top-section-content {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: auto;
+  padding: 3rem 0 8rem 0;
 }
 
-.tinyone-table {
-  margin: 0 0 100px 10%;
-  width: 17%;
+.tinyone-tablet {
+  margin-left: 8vw;
+  width: 20vw;
 }
 
 @media screen and (max-width: 1500px) {
-  .top-section-content {
-    justify-items: center;
-  }
-  .top-section article {
-    flex-wrap: wrap;
-    width: 40%;
-  }
-  .tinyone-table {
-    height: 100%;
-    width: 25%;
+  .tinyone-tablet {
+    width: 30vw;
   }  
 }
 
 @media screen and (max-width: 1000px) {
-  .tinyone-table {
-    width: 35%;
-  }  
+  .tinyone-tablet {
+    width: 35vw;
+  }
+  .top-section-content {
+    padding: 3rem 1rem 8rem 1rem;
+  }
+
 }
 
-@media screen and (max-width: 682px) {
+@media screen and (max-width: 685px) {
   .top-section article {
     flex-wrap: wrap;
-    width: 90%;
+    width: 90vw;
     order: 1;
   }
-  .tinyone-table {
+  .tinyone-tablet {
     order: 0;
-    margin: 0;
-    width: 50%;
+    margin: 0 0 3vh 0;
+    width: 55vw;
   }
   .top-section-content {
     flex-direction: column;
