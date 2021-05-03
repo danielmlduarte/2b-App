@@ -1,5 +1,8 @@
 import React from 'react';
 import TinyoneTable from '../assets/tinyone-table.png';
+import AppleBrand from '../assets/apple-brands.svg';
+import AndroidBrand from '../assets/android.svg';
+import WindowsBrand from '../assets/windows-brands.svg';
 
 import '../styles/TopSectionStyle.css'
 
@@ -20,8 +23,11 @@ const TopSection = () => {
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation
             ullamco laboris nisi ut aliquip ex ea commodo consequat
           </p>
+          <img src={ AppleBrand } alt=""/>
+          <img src={ AndroidBrand } alt=""/>
+          <img src={ WindowsBrand } alt=""/>
         </article>
-        <img src={ TinyoneTable } alt=""/>
+        <img className="tinyone-table" src={ TinyoneTable } alt=""/>
       </div>
     </section>
   )

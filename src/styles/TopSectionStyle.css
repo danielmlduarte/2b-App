@@ -1,32 +1,78 @@
 .top-section {
   background-color: #fddb00;
-  height: 600px;
+  height: 100%;
 }
 
 .top-section article {
-  margin-top: 100px;
-  width: 30%;
   font-family: 'PT Sans', sans-serif;
+  margin: 50px 0;
+  width: 20%;
 }
 
 .top-section article h1 {
-  margin-bottom: 20px;
   font-size: 30px;
   font-weight: 900;
+  margin-bottom: 20px;
 }
 
 .top-section article h2 {
-  margin-bottom: 20px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .top-section article p {
   margin-bottom: 20px;
 }
 
+.top-section article img {
+  margin-right: 20px;
+  width: 40px;
+}
+
 .top-section-content {
   display: flex;
-  width: 60%;
+  justify-content: center;
   margin: auto;
-  justify-content: space-around;
+}
+
+.tinyone-table {
+  margin: 0 0 100px 10%;
+  width: 17%;
+}
+
+@media screen and (max-width: 1500px) {
+  .top-section-content {
+    justify-items: center;
+  }
+  .top-section article {
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  .tinyone-table {
+    height: 100%;
+    width: 25%;
+  }  
+}
+
+@media screen and (max-width: 1000px) {
+  .tinyone-table {
+    width: 35%;
+  }  
+}
+
+@media screen and (max-width: 682px) {
+  .top-section article {
+    flex-wrap: wrap;
+    width: 90%;
+    order: 1;
+  }
+  .tinyone-table {
+    order: 0;
+    margin: 0;
+    width: 50%;
+  }
+  .top-section-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
