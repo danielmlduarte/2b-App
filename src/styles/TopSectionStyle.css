@@ -28,9 +28,9 @@
 }
 
 .top-section-content {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: auto;
   padding: 3rem 0 8rem 0;
 }
@@ -59,16 +59,16 @@
 @media screen and (max-width: 685px) {
   .top-section article {
     flex-wrap: wrap;
-    width: 90vw;
     order: 1;
+    width: 90vw;
   }
   .tinyone-tablet {
-    order: 0;
     margin: 0 0 3vh 0;
+    order: 0;
     width: 55vw;
   }
   .top-section-content {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
 }

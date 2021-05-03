@@ -13,20 +13,20 @@
 
 .header-nav-buttons a {
   color: #070400;
-  text-decoration: none;
   font-family: 'PT Sans', sans-serif;
   font-size: 1.8rem;
   font-weight: 900;
   margin-left: 4vw;
+  text-decoration: none;
 }
 
 .header-nav-hero {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 900;
-  display: flex;
-  text-decoration: none;
-  font-size: 2rem;
   color: #070400;
+  display: flex;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration: none;
 }
 
 .header-nav-hero img{
@@ -34,15 +34,15 @@
 }
 
 .header-nav {
-  display: flex;
   align-items: center;
+  display: flex;
   margin: auto;
 }
 
 @media screen and (max-width: 685px) {
   .header-nav {
-    margin-top: 3vh;
     flex-direction: column;
+    margin-top: 3vh;
   }
   .header-nav-buttons {
     margin-top: 2vh;

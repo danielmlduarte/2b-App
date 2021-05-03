@@ -1,8 +1,8 @@
 .feature-section {
-  font-family: 'PT Sans', sans-serif;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-family: 'PT Sans', sans-serif;
   padding: 8rem 0;
 }
 
@@ -12,22 +12,22 @@
 }
 
 .feature-section h2 {
-  margin-bottom: 5rem;
   font-weight: 400;
-  width: 50vw;
+  margin-bottom: 5rem;
   text-align: center;
+  width: 50vw;
 }
 
 .feature-article-content {
-  display: flex;
-  width: 20rem;
   align-items: flex-start;
+  display: flex;
   margin-bottom: 5rem;
+  width: 20rem;
 }
 
 .feature-article-content img {
-  width: 2.5rem;
   margin-right: 2.5rem;
+  width: 2.5rem;
 }
 
 .feature-article-content article h3 {
