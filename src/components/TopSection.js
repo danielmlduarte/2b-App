@@ -3,7 +3,6 @@ import TinyoneTablet from '../assets/tinyone-tablet.png';
 import AppleBrand from '../assets/apple-brands.svg';
 import AndroidBrand from '../assets/android.svg';
 import WindowsBrand from '../assets/windows-brands.svg';
-
 import '../styles/TopSectionStyle.css'
 
 const TopSection = () => {

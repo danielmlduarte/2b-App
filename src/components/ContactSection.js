@@ -5,7 +5,7 @@ import GooglePlusIcon from '../assets/google-plus-square-brands.svg';
 import PinterestIcon from '../assets/pinterest-square-brands.svg';
 import '../styles/ContactSectionStyle.css';
 
-function ContactSection() {
+const ContactSection = () => {
   const [emailInput, setEmailInput] = useState('');
 
   const handleSubmit = (event) => {
@@ -39,10 +39,18 @@ function ContactSection() {
         </button>
       </form>
       <div className="contact-social-media">
-        <input type="image" src={ FacebookIcon } alt="Facebook brand"/>
-        <input type="image" src={ TwitterIcon } alt="Twitter brand"/>
-        <input type="image" src={ GooglePlusIcon } alt="Google Plus brand"/>
-        <input type="image" src={ PinterestIcon } alt="Pinterest brand"/>
+        <a href="#facebook-page-link">
+          <img type="image" src={ FacebookIcon } alt="Facebook brand"/>
+        </a>
+        <a href="#twitter-page-link">
+          <img type="image" src={ TwitterIcon } alt="Twitter brand"/>
+        </a>
+        <a href="#google-plus-page-link">
+          <img type="image" src={ GooglePlusIcon } alt="Google Plus brand"/>
+        </a>
+        <a href="#piterest-page-link">
+          <img type="image" src={ PinterestIcon } alt="Pinterest brand"/>
+        </a>
       </div>
       
     </section>

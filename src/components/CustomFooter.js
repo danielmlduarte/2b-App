@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/CustomFooterStyle.css';
 
-function CustomFooter() {
+const CustomFooter = () => {
   return (
     <footer className="footer-container">
       <div>

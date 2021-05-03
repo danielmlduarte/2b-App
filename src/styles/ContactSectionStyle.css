@@ -27,7 +27,7 @@
   justify-content: center;
 }
 
-input[type="image"] {
+.contact-social-media a img {
   filter: invert(73%) sepia(66%) saturate(790%) hue-rotate(0deg) brightness(106%) contrast(106%);
   margin: 1.5rem;
   width: 3rem;

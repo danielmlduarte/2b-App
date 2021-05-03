@@ -17,8 +17,8 @@ const CustomHeader = () => {
         </div>
       </nav>
     </header>
-  )
-}
+  );
+};
 
 export default CustomHeader;
 

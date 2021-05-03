@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/FeatureSectionStyle.css';
-import TabletIcon from '../assets/tablet-alt-solid.svg'
-import LemonIcon from '../assets/lemon-regular.svg'
-import FolderIcon from '../assets/folder-regular.svg'
-import CodeIcon from '../assets/code-solid.svg'
-import EmailIcon from '../assets/envelope-regular.svg'
-import BookmarkIcon from '../assets/bookmark-regular.svg'
+import TabletIcon from '../assets/tablet-alt-solid.svg';
+import LemonIcon from '../assets/lemon-regular.svg';
+import FolderIcon from '../assets/folder-regular.svg';
+import CodeIcon from '../assets/code-solid.svg';
+import EmailIcon from '../assets/envelope-regular.svg';
+import BookmarkIcon from '../assets/bookmark-regular.svg';
 
 const FeatureSection = () => {
   return (
